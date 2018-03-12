@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Анна Сицинская](https://up.htmlacademy.ru/htmlcss/20/user/618379).
-* Наставник: `Неизвестно`.
+* Наставник: [Денис Власов](https://htmlacademy.ru/profile/amaringo).
 
 ---
 
