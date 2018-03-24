@@ -3,9 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>Нердс</title>
-     <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic" rel="stylesheet">
-     <link href= "css/normalize.css" rel="stylesheet">
-     <link href="css/style.css" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class="main-header">
@@ -20,7 +20,7 @@
           <li><a href="contacts.html">Контакты</a></li>
         </ul>
         <ul class="user-navigation">
-          <li class="login-link">Корзина</li>
+          <li class="login-link"><img src="img/cart-icon.svg">Корзина</li>
         </ul>
       </nav>
         <h1 class="page-title">Магазин готовых шаблонов</h1>
@@ -33,7 +33,6 @@
           <fieldset>
             <legend>Стоимость:</legend>
               <input class="price" type="range" min="0" max="15000">
-              <form action="https://echo.htmlacademy.ru" method="post">
                   <label>ОТ<input type="text" name="amount" value="0"></label>
                   <label>ДО<input type="text" name="amount" value="15000"></label>
           </fieldset>
@@ -84,6 +83,19 @@
         </section>
         <section class="catalog">
          <h2 class="visually-hidden">Список готовых шаблонов</h2>
+         <h3 class="catalog-sort">Сортировать:</h3>
+         <ul class="breadcrumbs">
+          <li><a href="index.html">По цене
+          </li>
+          <li><a href="index.html">По типу
+          </li>
+          <li><a href="index.html">По названию
+          </li>
+          <li><a href=""></a>
+          </li>
+          <li><a href=""></a>
+          </li>
+         </ul>
          <ul class="catalog-list">
           <li class="catalog-item">
            <img src="img/browser.svg">
